@@ -1,8 +1,8 @@
 import {createApp} from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import App from '..src/App.vue'
-import Jose from '../src/components/Jose.vue'
-import Carlos from '../src/components/Carlos.vue'
+import Jose from '../src/views/Jose.vue'
+import Carlos from '../src/views/Carlos.vue'
 
 const router = createRouter ({
     history: createWebHistory(),
